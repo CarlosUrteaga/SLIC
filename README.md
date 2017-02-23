@@ -10,7 +10,7 @@ Tested in Ubuntu 14.04 with ROS indigo
 	make
 	#./SLIC num_of_superpixels weight_factor image_out
 	#example
-	./SLIC images/dog.png 400 20 images/out.png
+	./SLIC images/dog.png 400 40 images/out.png
 
 <p align="center">
   <img src="https://github.com/CarlosUrteaga/SLIC/blob/master/images/dog.png?raw=true" alt="Dog"/>
