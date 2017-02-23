@@ -374,7 +374,7 @@ void Slic::colour_with_cluster_means(IplImage *image) {
         for (int j = 0; j < image->height; j++) {
             CvScalar ncolour = colours[clusters[i][j]];
             cvSet2D(image, j, i, ncolour);
-            printf("%d\n", ncolour);
+//            printf("%d\n", ncolour);
         }
     }
 }
